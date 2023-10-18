@@ -1,0 +1,270 @@
+/*顶部导航栏*/
+a {
+    color: black;
+    text-decoration: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.topnav {
+    width: 1536px;
+    height: 56px;
+    background: linear-gradient(200deg, rgba(1, 178, 254, 0.8) 0%, rgba(176, 113, 253, 0.8) 47%, rgba(35, 110, 255, 0.8) 100%);
+    position: fixed;
+    z-index: 999;
+    backdrop-filter: blur(20px);
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+    left: 0;
+    top: 0;
+}
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.top_left {
+    width: 760px;
+    height: 56px;
+    display: block;
+    position: relative;
+    float: left;
+    margin-left: 19px;
+}
+.top_function {
+    width: 700px;
+    height: 56px;
+    display: block;
+    position: relative;
+    float: left;
+}
+.top_function ul {
+    width: 500px;
+    height: 56px;
+    display: block;
+    position: relative;
+    padding: 0;
+    margin-bottom: 0;
+    float: left;
+}
+.top_function ul li {
+    width: 100px;
+    height: 56px;
+    display: block;
+    position: relative;
+    float: left;
+    padding: 0;
+    line-height: 56px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+.top_function ul li:hover {
+    background-color: rgba(32, 32, 35, 0.4);
+    transition: 0.4s ease-in-out;
+}
+.top_right {
+    width: 727px;
+    height: 56px;
+    display: block;
+    position: relative;
+    float: right;
+    margin-top: -56px;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.money {
+    width: 88px;
+    height: 32px;
+    padding: 0 8px;
+    display: block;
+    position: relative;
+    float: left;
+    border-radius: 16px;
+    background-color: rgba(0,0,0,0.4);
+    top: 20%;
+    cursor: pointer;
+}
+.money:hover {
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.7);
+    transition: 0.4s ease-in-out;
+    background-color: rgba(31, 30, 30, 0.4);
+}
+.money_img {
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: relative;
+    float: left;
+    border-radius: 10px;
+    background-color: rgba(245, 245, 245, 0.6);
+    top: 20%;
+    color: whitesmoke;
+}
+.money_img:hover {
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.4),inset 0 -1px 5px rgba(245,245,245,50);
+    transition: 0.4s ease-in-out;
+}
+.money span {
+    width: 30px;
+    height: 20px;
+    display: block;
+    position: relative;
+    padding-left: 8px;
+    float: left;
+    top: 20%;
+    font-size: 14px;
+    color: #f5db9d;
+    font-weight: 700;
+}
+.web_info {
+    width: 224px;
+    height: 32px;
+    display: block;
+    position: relative;
+    padding: 0 16px;
+    margin-left: 16px;
+    border-radius: 16px;
+    background-color: rgba(0,0,0,0.4);
+    float: left;
+    top: 20%;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+.web_info span {
+    height: 32px;
+    display: block;
+    position: relative;
+    float: left;
+    margin-right: 16px;
+    top: 20%;
+}
+.web_info:hover {
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.7);
+    transition: 0.4s ease-in-out;
+}
+.document_manage {
+    width: 112px;
+    height: 32px;
+    display: block;
+    position: relative;
+    padding: 0 16px;
+    border-radius: 16px;
+    margin-left: 8px;
+    float: left;
+    background-color: rgba(0,0,0,0.4);
+    top: 20%;
+    cursor: pointer;
+}
+.document_manage:hover {
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.7);
+    transition: 0.4s ease-in-out;
+    background-color: rgba(31, 30, 30, 0.4);
+}
+.document_manage img {
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: relative;
+    float: left;
+    top: 20%;
+}
+.document_manage span {
+    width: 56px;
+    height: 32px;
+    display: block;
+    position: relative;
+    float: left;
+    line-height: 32px;
+    font-size: 14px;
+    color: #c9cdd4;
+    font-weight: 400;
+    margin-left: 2px;
+}
+.account {
+    width: 112px;
+    height: 32px;
+    display: block;
+    position: relative;
+    padding: 0 16px;
+    border-radius: 16px;
+    margin-left: 8px;
+    float: left;
+    background: linear-gradient(135deg,#01b2fe 0%,#236eff 47%,#673efc 100%);
+    top: 20%;
+    line-height: 32px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+.account img {
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: relative;
+    float: left;
+    top: 20%;
+}
+.account span {
+    width: 56px;
+    height: 32px;
+    display: block;
+    position: relative;
+    float: left;
+    line-height: 32px;
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+    margin-left: 3px;
+}
+.account:hover {
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.7);
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+.note {
+    width: 24px;
+    height: 24px;
+    display: block;
+    position: relative;
+    float: left;
+    margin-left: 15px;
+    top: 30%;
+}
+.note img {
+    width: 24px;
+    height: 24px;
+    display: block;
+    position: relative;
+}
+.login {
+    width: 95px;
+    height: 32px;
+    display: block;
+    position: relative;
+    float: left;
+    top: 20%;
+    border-radius: 16px;
+    margin-left: 16px;
+    background-color: rgba(0,0,0,0.4);
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 32px;
+}
+.login:hover {
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.7);
+    transition: 0.4s ease-in-out;
+}
+.top-logo {
+    width: 120px;
+    height: 56px;
+    display: block;
+    position: relative;
+    float: left;
+    background-image: url("@/assets/logo_2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}

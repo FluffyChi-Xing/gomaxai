@@ -1,0 +1,298 @@
+* {
+    -webkit-user-select: none;
+    user-select: none;
+}
+.main_top {
+    width: 1456px;
+    height: 240px;
+    display: block;
+    position: relative;
+    margin: 70px 0 0 30px;
+}
+.main_ad {
+    width: 348px;
+    height: 238px;
+    display: block;
+    position: relative;
+    float: left;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-top: -238px;
+    margin-left: 720px;
+}
+.main_ad div {
+    width: 348px;
+    height: 104px;
+    display: block;
+    position: relative;
+    border-radius: 14px;
+    overflow: hidden;
+}
+.main_ad div a {
+    width: 348px;
+    height: 104px;
+    display: block;
+    position: relative;
+}
+.main_ad div a img {
+    width: 348px;
+    height: 104px;
+    display: block;
+    position: relative;
+}
+.main_ad img:hover {
+    opacity: 0.5;
+    transition: 0.5s ease-in-out;
+}
+.main_user {
+    width: 364px;
+    height: 238px;
+    display: block;
+    position: relative;
+    float: right;
+    border-radius: 14px;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    padding: 24px;
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.5));
+    box-shadow: 0 20px 40px 1px rgba(0, 0, 0, 0.12);
+    margin-top: -238px;
+}
+.user_top {
+    width: 316px;
+    height: 56px;
+    display: block;
+    position: relative;
+}
+.user_logo {
+    width: 56px;
+    height: 56px;
+    display: block;
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    background-image: url("../../assets/TopLogo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.user_avater {
+    width: 140px;
+    height: 56px;
+    display: block;
+    position: relative;
+    float: left;
+}
+.user_avater img {
+    width: 56px;
+    height: 56px;
+    display: block;
+    position: relative;
+    border-radius: 28px;
+    overflow: hidden;
+}
+.user_avater span {
+    width: 77px;
+    height: 24px;
+    display: block;
+    position: relative;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    float: right;
+    margin-top: -40px;
+    color: #fff;
+    /*margin-left: 2px;*/
+}
+.user_avater img:hover {
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.7);
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+.user_avater span:hover {
+    cursor: pointer;
+}
+.user_center {
+    width: 316px;
+    height: 82px;
+    display: block;
+    position: relative;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.user_info {
+    width: 105px;
+    height: 40px;
+    display: block;
+    position: relative;
+    float: left;
+    top: 25%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.user_info:hover {
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.5));;
+    backdrop-filter: blur(8px);
+    box-shadow: inset 2px 2px 5px rgba(0,0,0,0.4);
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+.user_info_top {
+    width: 105px;
+    height: 20px;
+    display: block;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #fffffff2;
+}
+.user_info_bot {
+    width: 105px;
+    height: 20px;
+    display: block;
+    position: relative;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #ffffffa6;
+}
+.user_btns {
+    width: 316px;
+    height: 36px;
+    display: block;
+    position: relative;
+    margin-top: 5px;
+}
+.user_btn_1 {
+    width: 111px;
+    height: 36px;
+    display: block;
+    position: relative;
+    float: left;
+    border-radius: 18px;
+    background-color: #313132;
+    color: #e8f3ff;
+    font-size: 15px;
+}
+.user_btn_2 {
+    width: 176px;
+    height: 36px;
+    display: block;
+    position: relative;
+    float: right;
+    border-radius: 18px;
+    background: linear-gradient(135deg,#01b2fe 0%,#236eff 47%,#673efc 100%);
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+}
+.user_btn_1:hover {
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.7);
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    color: #e8f3ff;
+}
+.user_btn_2:hover {
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.7);
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    color: #fff;
+}
+/*版块选择*/
+.info_choice {
+    width: 1456px;
+    height: 36px;
+    display: block;
+    position: relative;
+    margin-top: 25px;
+}
+.choice_bk {
+    width: 254px;
+    height: 26px;
+    display: block;
+    position: relative;
+    float: left;
+}
+.two_choice {
+    width: 120px;
+    height: 26px;
+    display: block;
+    position: relative;
+    float: left;
+    line-height: 26px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+}
+.choice_bottom {
+    border-bottom: 2px solid #1890ff;
+}
+.first_color {
+    color: #fffffff2!important;
+    transition: 0.4s ease-in-out;
+}
+.second_color {
+    color: #86909c!important;
+    transition: 0.4s ease-in-out;
+}
+/*详细选择*/
+.more_select {
+    width: 1456px;
+    height: 20px;
+    line-height: 20px;
+}
+.more_select_left {
+    width: 228px;
+    height: 20px;
+    display: block;
+    position: relative;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+.more_select_left li {
+    width: 90px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    position: relative;
+    float: left;
+}
+.more_select_left li div {
+    width: 42px;
+    height: 20px;
+    display: block;
+    position: relative;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    color: #86909c;
+}
+.arrange {
+    width: 72px;
+    height: 20px;
+    display: block;
+    position: relative;
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+.li {
+    width: 24px;
+    height: 20px;
+    display: block;
+    position: relative;
+    float: left;
+    text-align: center;
+    background-color: #aaaaaa;
+}
+.li:hover {
+    background-color: whitesmoke;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.4);
+    transition: all .2s;
+}

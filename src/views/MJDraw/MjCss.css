@@ -1,0 +1,141 @@
+.img_bk {
+    width: 229px;
+    height: 229px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+.MjLi img {
+    width: 229px;
+    height: 229px;
+    display: block;
+    position: relative;
+    outline: none;
+    cursor: pointer;
+}
+.MjLi img:hover {
+    transform: scale(1.5);
+    transition: 2s ease-in-out;
+    opacity: 0.5;
+}
+.MjLi:hover {
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(169, 169, 169, 0.5));
+    box-shadow: 0 2px 2px 5px rgba(152, 150, 150, 0.5);
+    transition: 0.4s ease;
+}
+.img_price {
+    width: 50px;
+    height: 24px;
+    display: block;
+    position: absolute;
+    background: rgb(245, 245, 245);
+    border-radius: 12px;
+    margin-left: 170px;
+    margin-top: -220px;
+}
+.img_price:hover {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
+    background: rgba(255, 255, 255, 0.5);
+    opacity: 0.5;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+.img_money {
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    display: block;
+    position: relative;
+    top: 20%;
+    background-color: orange;
+    margin-left: 7px;
+}
+.img_span {
+    width: 14px;
+    height: 14px;
+    display: block;
+    position: relative;
+    float: right;
+    color: #f5db9d;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    margin-top: -9px;
+    margin-right: 5px;
+    font-weight: 700;
+}
+.MjLi h5 {
+    width: 129px;
+    height: 20px;
+    display: block;
+    position: relative;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    color: #c9cdd4;
+    margin-left: 10px;
+}
+.MjLi h5:hover {
+    color: white;
+}
+.img_user {
+    width: 229px;
+    height: 30px;
+    display: block;
+    position: relative;
+}
+.img_avater {
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: #f5db9d;
+    top: 20%;
+}
+.user_id {
+    width: 150px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    color: #c9cdd4;
+    font-size: 14px;
+    top: 20%;
+}
+.img_like {
+    width: 40px;
+    height: 20px;
+    display: block;
+    position: relative;
+    top: 20%;
+    float: right;
+    margin-top: -20px;
+}
+.img_like_logo {
+    width: 20px!important;
+    height: 20px!important;
+    display: block;
+    position: relative;
+    margin-left: 5px;
+    outline: none;
+}
+.MjLi {
+    width: 229px;
+    height: 318px;
+    display: block;
+    position: relative;
+    border-radius: 14px;
+    overflow: hidden;
+    float: left;
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(224, 224, 224, 0.5));
+    margin-right: 10px;
+    margin-top: 20px;
+    transition: all .2s;
+    cursor: pointer;
+}
