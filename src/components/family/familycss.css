@@ -1,0 +1,40 @@
+.background {
+    width: 1519px;
+    height: 735px;
+    display: block;
+    position: relative;
+    background: #01b2fe;
+}
+.background::-webkit-scrollbar {
+    display: none;
+}
+.el-menu-demo {
+    width: 1519px;
+    position: fixed;
+    background: linear-gradient(200deg, rgba(1, 178, 254, 0.8) 0%, rgba(176, 113, 253, 0.8) 47%, rgba(35, 110, 255, 0.8) 100%);
+    z-index: 999;
+}
+.swiper_ad {
+    width: 1200px;
+    height: 250px;
+    display: block;
+    position: relative;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.el-carousel__item h3 {
+    color: #475669;
+    opacity: 0.75;
+    line-height: 200px;
+    margin: 0;
+    text-align: center;
+}
+
+.el-carousel__item:nth-child(2n) {
+    background-color: #99a9bf;
+}
+
+.el-carousel__item:nth-child(2n + 1) {
+    background-color: #d3dce6;
+}

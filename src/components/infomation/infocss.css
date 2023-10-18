@@ -6,6 +6,11 @@
     left: 0;
     top: 0;
     background-color: #18181a;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.info-body::-webkit-scrollbar {
+    display: none!important;
 }
 footer {
     width: 100%;
@@ -15,6 +20,8 @@ footer {
     background-color: #18181a;
     bottom: 0;
     position: absolute;
+    -webkit-user-select: none;
+    user-select: none;
 }
 .footer_inner {
     width: 1500px;

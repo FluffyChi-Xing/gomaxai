@@ -1,5 +1,5 @@
 <script>
-import 'element-ui/lib/theme-chalk/base.css';
+import 'element-plus/theme-chalk/base.css';
 export default {
   name: 'SoldClass',
   data: () => ({

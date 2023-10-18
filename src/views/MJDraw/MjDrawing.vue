@@ -9,7 +9,7 @@ export default {
 <template>
   <li class="MjLi">
     <div class="img_bk">
-      <img src="https://cdn-sh1.tcbot.cc/sd/test/1692364906330194865_0.png" alt="">
+      <img src="https://static.runoob.com/images/mix/img_fjords_wide.jpg" alt="">
     </div>
     <div class="img_price">
       <div class="img_money"></div>
@@ -20,7 +20,7 @@ export default {
       <div class="img_avater"></div>
       <span class="user_id">xxxx</span>
       <div class="img_like">
-        <img src="@/views/MJDraw/喜欢.svg" alt="" class="img_like_logo">
+        <img src="./喜欢.svg" alt="" class="img_like_logo">
       </div>
     </div>
   </li>

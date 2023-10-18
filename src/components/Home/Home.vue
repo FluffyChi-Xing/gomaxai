@@ -1,7 +1,5 @@
-<script>
-export default {
-  name: 'HoMe',
-}
+<script setup>
+
 </script>
 
 <template>
@@ -10,11 +8,11 @@ export default {
     <div class="top_left">
       <div class="top_function">
         <ul>
-          <li><a href="#">宇宙家庭</a></li>
-          <li><a href="#">家族人生</a></li>
-          <li><a href="#">AI办公</a></li>
-          <li><a href="#">启蒙学院</a></li>
-          <li><a href="#">创作广场</a></li>
+          <li><router-link href="#" to="/family">宇宙家庭</router-link></li>
+          <li><router-link href="#" to="/life">家族人生</router-link></li>
+          <li><router-link href="#" to="/office">AI办公</router-link></li>
+          <li><router-link href="#" to="/school">启蒙学院</router-link></li>
+          <li><router-link href="#" to="/ground">创作广场</router-link></li>
         </ul>
       </div>
     </div>
@@ -39,9 +37,9 @@ export default {
       <div class="note">
         <img src="../../assets/lin.png" alt="">
       </div>
-      <div class="login">
+      <van-button class="login" to="/login">
         登录/注册
-      </div>
+      </van-button>
     </div>
   </div>
 </template>

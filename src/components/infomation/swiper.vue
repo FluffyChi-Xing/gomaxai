@@ -7,9 +7,9 @@ export default {
   data(){
     return {
       list: [
-        {id:1,src: 'https://tc.cos.cdn.jchdnet.cn/tables/8828abaa-82e1-4cee-9b45-1015732f568f_1688992140120.png'},
-        {id:2,src: 'https://tc.cos.cdn.jchdnet.cn/tables/9a94cb8f-2719-4759-b3f5-e4a044a6988a_1688992189333.png'},
-        {id:3,src: 'https://tc.cos.cdn.jchdnet.cn/tables/0f8c54d7-75b5-4d10-ae4a-256199f0fa39_1689158875985.png'}
+        {id:1,src: 'https://static.runoob.com/images/mix/img_fjords_wide.jpg'},
+        {id:2,src: 'https://static.runoob.com/images/mix/img_nature_wide.jpg'},
+        {id:3,src: 'https://static.runoob.com/images/mix/img_mountains_wide.jpg'}
       ]
     }
   },

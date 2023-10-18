@@ -14,10 +14,7 @@ export default {
     }
   },
   methods: {
-    login(){
-      this.isShow = true
-      console.log(this.isShow)
-    }
+
   },
   provide(){
     return {
@@ -34,7 +31,7 @@ export default {
     <div class="main_user">
       <div class="user_top">
         <div class="user_avater">
-          <img src="../../assets/user.png" alt=""  @click="login">
+          <img src="../../assets/user.png" alt="">
           <span>登录/注册</span>
         </div>
         <div class="user_logo"></div>

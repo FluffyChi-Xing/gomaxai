@@ -1,0 +1,30 @@
+* {
+    -webkit-user-select: none;
+    user-select: none;
+}
+.tac {
+    width: 350px;
+    height: 735px;
+}
+.tac ul {
+    height: 735px;
+}
+.background {
+    width: 1519px;
+    height: 735px;
+    display: block;
+    position: relative;
+    background-color: red;
+    overflow: hidden;
+}
+.el-menu-demo {
+    width: 1344px;
+    margin-left: 175px;
+    margin-top: -740px;
+    position: fixed;
+    background: linear-gradient(200deg, rgba(1, 178, 254, 0.8) 0%, rgba(176, 113, 253, 0.8) 47%, rgba(35, 110, 255, 0.8) 100%);
+    z-index: 999;
+}
+.el-menu-vertical-demo {
+    z-index: 999;
+}

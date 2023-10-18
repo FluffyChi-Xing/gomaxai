@@ -1,0 +1,64 @@
+.background {
+    width: 1350px;
+    height: 680px;
+    display: block;
+    position: absolute;
+    background-color: whitesmoke;
+    top: 0;
+    margin-top: 55px;
+    margin-left: 175px;
+    padding: 50px;
+}
+.choice {
+    width: 300px;
+    height: 90px;
+    display: block;
+    float: left;
+    position: relative;
+    background-color: white;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    border: 1px solid rgba(0,0,0,.125);
+    box-shadow: 0 0 20px -5px rgb(13 11 11 / 20%);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.choice:hover {
+    box-shadow: 6px 6px 10px 0 rgba(13, 17, 24, 0.45), 6px 6px 10px 0 rgba(255,255,255,.7);
+    transition: .4s ease-in-out;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: relative;
+    float: left;
+    background-image: url("@/assets/user.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.text {
+    width: 200px;
+    height: 90px;
+    display: block;
+    position: relative;
+    float: right;
+}
+.text div {
+    width: 200px;
+    height: 45px;
+    line-height: 45px;
+}
+.text div:nth-child(1) {
+    font-size: 16px;
+    font-weight: bold;
+}
+.text div:nth-child(2) {
+    font-size: 14px;
+    font-weight: lighter;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

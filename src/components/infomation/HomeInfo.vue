@@ -1,6 +1,5 @@
 <script>
 import Top from "@/components/infomation/Top.vue"
-import Loginmenu from "@/components/Login/loginmenu.vue";
 import AIDrawing from "@/components/infomation/AIDrawing.vue";
 import SoldClass from "@/components/infomation/SoldClass.vue";
 export default {
@@ -10,7 +9,6 @@ export default {
   },
   components: {
     Top,
-    Loginmenu,
     AIDrawing,
     SoldClass
   },
